@@ -1,1 +1,1 @@
-console.log("Rebeca Andrade");
+console.log(personagens[0]);
