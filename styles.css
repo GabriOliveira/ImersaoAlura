@@ -5,7 +5,7 @@
 /* Estiliza o corpo da página */
 body {
     font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
-    background-image: url('https://static1.srcdn.com/wordpress/wp-content/uploads/2023/01/jujutsu-kaisen-s-main-cast.jpg'); /* Cor de fundo da página */
+    background-image: url('https://images5.alphacoders.com/110/thumb-1920-1101595.jpg'); /* Cor de fundo da página */
     backdrop-filter: blur(5px);
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Alinha os itens na vertical */
@@ -42,16 +42,16 @@ section {
 }
 
 section::-webkit-scrollbar{
-    background-color: #082a4d;
+    background-color: #021a33;
 }
 
 section::-webkit-scrollbar-button {
-    background-color:#082a4d ;
+    background-color:#021a33;
     
 }
 
 section::-webkit-scrollbar-thumb{
-    background-color:#eb1515;
+    background-color:#7a7804;
 }
 
 /* Estiliza os inputs dentro das seções */
@@ -71,15 +71,15 @@ section button {
     padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
     border: none; /* Remove a borda padrão */
     border-radius: 1.5rem; /* Borda arredondada */
-    background-color: #082a4d; /* Cor de fundo do botão */
-    color: #F5F7F8; /* Cor do texto do botão */
+    background-color: #031322; /* Cor de fundo do botão */
+    color: #f5f7f8a1; /* Cor do texto do botão */
     font-size: 1rem; /* Tamanho da fonte */
     cursor: pointer; /* Muda o cursor para indicar que é clicável */
 }
 
 /* Adiciona efeito hover ao botão de pesquisa */
 section button:hover {
-    background-color: #082a4d; /* Muda a cor de fundo ao passar o mouse */
+    background-color: #031425; /* Muda a cor de fundo ao passar o mouse */
     box-shadow: 0 4px 8px rgba(14, 1, 31, 0.2); /* Adiciona uma sombra mais intensa */
 }
 
@@ -95,7 +95,7 @@ section button:hover {
 
 /* Estiliza cada item de resultado */
 .item-resultado {
-    background: #0C1821; /* Cor de fundo dos itens */
+    background: #060b0f; /* Cor de fundo dos itens */
     border-radius: 0.6rem; /* Borda arredondada */
     padding: 1rem; /* Espaçamento interno */
     margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
@@ -105,13 +105,13 @@ section button:hover {
 /* Estiliza os títulos dentro dos itens de resultado */
 .item-resultado h2 {
     font-size: 1.5rem; /* Tamanho da fonte */
-    color: #7B0D1E; /* Cor do texto */
+    color: #7a7804; /* Cor do texto */
 }
 
 /* Estiliza os links dentro dos itens de resultado */
 .item-resultado a {
     text-decoration: none; /* Remove o sublinhado padrão dos links */
-    color: #ac041d; /* Cor do texto dos links */
+    color: #7a7804; /* Cor do texto dos links */
 }
 
 /* Estiliza os links quando são passados o mouse sobre */
@@ -127,7 +127,7 @@ section button:hover {
 
 /* Estiliza o rodapé da página */
 footer {
-    background-color: #0e253b; /* Cor de fundo do rodapé */
+    background-color: #060b0f; /* Cor de fundo do rodapé */
     color: #999a9b; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
