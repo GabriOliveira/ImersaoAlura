@@ -1,4 +1,4 @@
-let personagens = [
+let dados = [
     {
       titulo: 'Gojo Satoru',
       descricao: 'Considerado o feiticeiro mais forte do mundo, Gojo Satoru possui os olhos celestiais, uma técnica amaldiçoada inigualável e uma personalidade excêntrica. Sua habilidade de manipular o espaço o torna um adversário formidável.',
